@@ -6,7 +6,7 @@ namespace Summerizing_Text
 {
     public class StringUtility
     {
-        public static string SummerizeText(string text, int maxLength = 20) // Method with 20 charactor default if one is not set
+        public static string SummarizeText(string text, int maxLength = 20) // Method with 20 charactor default if one is not set
         {
 
             if (text.Length < maxLength) // If the text is less than length above then go ahead and print 
